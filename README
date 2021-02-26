@@ -1,0 +1,14 @@
+This program uses defisheye algorithm to convert a 360 degree image into a 90 degree field of view.
+It then lets the user select the region whose width needs to be calculated.
+
+The selection should be within the rectangular box. This helps to map the 
+selected pixel values to corresponding measurement in feet.
+
+In order to select the region, start at a point on the image by right clicking on the mouse and then drag it down imagining the diagonal of the rectangle box.
+If the box selection was not correct, "Press r" to redo and if the selection was as desired "Press c" to exit and view the result.
+
+##############COMMAND TO RUN THE PROGRAM#################
+# python 1_create_dir_use_defisheye.py <OUTPUT_DIRECTORY> <IMAGE_PATH> <PATH_TO_MAPPING_DICTIONARY>
+# python 1_create_dir_use_defisheye.py Image_Output Images_360/pano_0002_000040.jpg Mapping_Dictionary/combined_dict.pkl
+#########################################################
+
